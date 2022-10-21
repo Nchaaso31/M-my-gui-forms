@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.MyguiTitledBorderForms">
+  <grid id="27dc6" binding="mainpanel" layout-manager="FlowLayout" hgap="15" vgap="15" flow-align="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="line">
+      <color color="-4503628"/>
+    </border>
+    <children>
+      <grid id="550e0" binding="panel1" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints/>
+        <properties>
+          <alignmentX value="1.0"/>
+          <alignmentY value="1.0"/>
+          <background color="-12512468"/>
+        </properties>
+        <border type="line" title="search">
+          <font/>
+          <title-color color="-7234741"/>
+          <color color="-14575685"/>
+        </border>
+        <children>
+          <component id="d795a" class="javax.swing.JRadioButton" binding="ById">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1773577"/>
+              <font name="Abyssinica SIL"/>
+              <foreground color="-7234741"/>
+              <text value="ById"/>
+            </properties>
+          </component>
+          <component id="8eea1" class="javax.swing.JRadioButton" binding="ByName">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1773577"/>
+              <font name="Abyssinica SIL"/>
+              <foreground color="-7234741"/>
+              <text value="ByName"/>
+              <verticalAlignment value="1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="da310"/>
+      <member id="d795a"/>
+    </group>
+  </buttonGroups>
+</form>
