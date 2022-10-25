@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.myRadioButtonForms">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="bevel-lowered" title="hola">
+      <font name="Courier 10 Pitch"/>
+      <title-color color="-4490865"/>
+    </border>
+    <children>
+      <grid id="83a39" binding="mainPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a0384" class="javax.swing.JRadioButton" binding="linuxRadioButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <selected value="true"/>
+              <text value="Linux"/>
+            </properties>
+          </component>
+          <component id="3901" class="javax.swing.JRadioButton" binding="windowsRadioButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <selected value="false"/>
+              <text value="Windows"/>
+            </properties>
+          </component>
+          <component id="eeb1f" class="javax.swing.JRadioButton" binding="manchitoshRadioButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <selected value="false"/>
+              <text value="Manchitosh"/>
+            </properties>
+          </component>
+          <component id="9c713" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+            <constraints/>
+            <properties>
+              <model>
+                <item value="hola"/>
+                <item value="guapo"/>
+                <item value="como"/>
+                <item value="estas"/>
+              </model>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="osButtonGroup">
+      <member id="a0384"/>
+      <member id="3901"/>
+      <member id="eeb1f"/>
+    </group>
+  </buttonGroups>
+</form>
