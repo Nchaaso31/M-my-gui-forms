@@ -1,5 +1,6 @@
 package org.example;
 
+import javax.swing.*;
 import javax.swing.table.AbstractTableModel;
 import java.util.List;
 
@@ -10,6 +11,8 @@ public class StudentTableModel extends AbstractTableModel {
     private final static int AGE_COLUMN_INDEX = 3;
 
     private List<Student> students;
+    private JPanel panel1;
+    private JTable tablaEstudiantes;
 
     public StudentTableModel(List<Student> students) {
         super();
